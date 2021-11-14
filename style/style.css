@@ -268,8 +268,7 @@ body {
 .links {
   float: right;
 }
-,
-links dl {
+.links dl {
   float: left;
   margin-left: 100px;
 }
