@@ -114,6 +114,7 @@ body {
     position: absolute;
     top: 88px;
     left: -92px;
+    z-index: 2;
 }
 
 .categroy-list>ul {
@@ -211,11 +212,69 @@ body {
 
 /* 内容主页css */
 
-.site-content .site-slider a {
+.site-content .site-slider>a {
     display: block;
     width: 1226px;
 }
 
-.site-content .site-slider a img {
+.site-content .site-slider>a img {
     width: 1226px;
+}
+
+.site-content .site-slider {
+    position: relative;
+}
+
+.site-content .site-slider>span {
+    position: absolute;
+    background: url(../images/sprites.png);
+    width: 41px;
+    height: 69px;
+    cursor: pointer;
+}
+
+.site-content .site-slider .next {
+    background-position: -82px 0;
+    left: 234px;
+    top: 181px;
+}
+
+.site-content .site-slider .next:hover {
+    background-position: 0 0;
+}
+
+.site-content .site-slider .prev {
+    background-position: -123px 0;
+    right: 0;
+    top: 181px;
+}
+
+.site-content .site-slider .prev:hover {
+    background-position: -41px 0;
+}
+
+.site-content .site-slider .slider-item {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+    /* background-color: red; */
+}
+
+.site-content .site-slider .slider-item a {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    margin: 0 5px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, .4);
+    border: 2px solid #fff;
+    border-color: rgba(255, 255, 255, .3);
+}
+
+.site-content .site-slider .slider-item a:hover {
+    background-color: #fff;
 }
