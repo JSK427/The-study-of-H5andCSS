@@ -54,7 +54,7 @@ body {
 }
 
 .topBar span {
-    margin: 0 .5em;
+    margin: 0 .3em;
     color: #424242;
 }
 
@@ -87,14 +87,14 @@ body {
     width: 850px;
 }
 
-.header .site-list ul {
+.header .site-list>ul {
     width: 820px;
     height: 88px;
     padding: 12px 0 0 30px;
     font-size: 16px;
 }
 
-.header .site-list ul li {
+.header .site-list>ul>li {
     float: left;
 }
 
@@ -110,19 +110,51 @@ body {
 .header .site-list .site-categroy .categroy-list {
     width: 234px;
     height: 460px;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(105, 101, 101, 0.6);
     position: absolute;
     top: 88px;
     left: -92px;
 }
 
-.header .site-list ul li a {
+.categroy-list>ul {
+    width: 234px;
+    height: 420px;
+    padding: 20px 0;
+}
+
+.categroy-list>ul>li {
+    height: 42px;
+}
+
+.categroy-list>ul>li>a {
+    position: relative;
+    padding-left: 30px;
+    display: block;
+    height: 42px;
+    line-height: 42px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.categroy-list>ul>li>a:hover {
+    background-color: #ff6700;
+}
+
+.categroy-list>ul>li>a span {
+    position: absolute;
+    font-size: 16px;
+    line-height: 16px;
+    top: 12px;
+    right: 20px;
+}
+
+.header .site-list>ul>li>a {
     display: block;
     padding: 26px 10px 38px;
     color: #333;
 }
 
-.header .site-list ul li a:hover {
+.header .site-list>ul>li>a:hover {
     color: #ff6700;
 }
 
