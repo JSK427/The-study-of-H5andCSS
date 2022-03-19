@@ -3,6 +3,12 @@ body {
     color: #333;
 }
 
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
 
 /* 顶部栏css */
 
@@ -215,6 +221,7 @@ body {
 .site-content .site-slider>a {
     display: block;
     width: 1226px;
+    height: 460px;
 }
 
 .site-content .site-slider>a img {
@@ -277,4 +284,71 @@ body {
 
 .site-content .site-slider .slider-item a:hover {
     background-color: #fff;
+}
+
+
+/* 向导 */
+
+.content-sub {
+    margin-top: 18px;
+    overflow: hidden;
+}
+
+.site-content .content-sub .content-channel .channel-list {
+    float: left;
+    width: 234px;
+    height: 170px;
+    background-color: #5f5750;
+    font-size: 12px;
+    text-align: center;
+}
+
+.site-content .content-sub .content-channel>ul>li {
+    float: left;
+    width: 33.3%;
+    height: 85px;
+}
+
+.site-content .content-sub .content-channel>ul>li a {
+    display: block;
+    color: rgba(255, 255, 255, .7);
+    padding-top: 18px;
+}
+
+.site-content .content-sub .content-channel>ul>li a i {
+    display: block;
+    font-size: 24px;
+}
+
+.site-content .content-sub .content-list {
+    float: left;
+    width: 992px;
+}
+
+.site-content .content-sub .content-list ul>li {
+    float: left;
+    width: 33.3%;
+    text-align: right;
+}
+
+.site-content .content-sub .content-list ul>li a,
+.site-content .content-sub .content-list ul>li img {
+    width: 316px;
+    height: 170px;
+}
+
+.site-content .content-banner {
+    margin-top: 18px;
+}
+
+.content-banner a {
+    /* margin-top: 18px; */
+    display: block;
+    width: 1226px;
+    height: 120px;
+}
+
+.content-banner a img {
+    width: 1226px;
+    height: 120px;
 }
