@@ -339,6 +339,7 @@ body {
 
 .site-content .content-banner {
     margin-top: 18px;
+    margin-bottom: 30px;
 }
 
 .content-banner a {
@@ -351,4 +352,260 @@ body {
 .content-banner a img {
     width: 1226px;
     height: 120px;
+}
+
+
+/* 内容详情CSS */
+
+
+/* 标题 */
+
+.content-desc {
+    padding-top: 22px;
+    background-color: #f5f5f5;
+}
+
+.content-desc .bx-hd {
+    position: relative;
+    height: 58px;
+}
+
+.content-desc .bx-hd h2 {
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 58px;
+    color: #333;
+}
+
+.content-desc .bx-hd .more {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.content-desc .bx-hd .more a {
+    font-size: 16px;
+    line-height: 58px;
+    color: #424242;
+}
+
+.content-desc .bx-hd .more a i {
+    padding: 4px;
+    margin-left: 8px;
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    background-color: #b0b0b0;
+    color: #fff;
+    font-size: 12px;
+    vertical-align: 2px;
+}
+
+.content-desc .bx-hd .more:hover a {
+    color: #ff6700;
+}
+
+.content-desc .bx-hd .more:hover a i {
+    background-color: #ff6700;
+}
+
+
+/* 内容 */
+
+.content-desc .bx-bd .row-l {
+    float: left;
+    width: 234px;
+    background-color: #fff;
+}
+
+.content-desc .bx-bd .row-l a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.content-desc .bx-bd .row-l img {
+    width: 234px;
+    height: 614px;
+}
+
+.content-desc .bx-bd .row-r {
+    float: left;
+    width: 992px;
+}
+
+.content-desc .bx-bd .row-r ul {
+    overflow: hidden;
+}
+
+.content-desc .bx-bd .row-r ul li {
+    float: left;
+    width: 234px;
+    height: 260px;
+    padding: 20px 0;
+    background-color: #fff;
+    position: relative;
+    margin-left: 14px;
+    margin-bottom: 14px;
+}
+
+.content-desc .bx-bd .row-r ul li .figure {
+    width: 160px;
+    height: 160px;
+    margin: 0 auto 18px;
+}
+
+.content-desc .bx-bd .row-r ul li .figure a {
+    display: block;
+}
+
+.content-desc .bx-bd .row-r ul li .figure a img {
+    width: 160px;
+    height: 160px;
+}
+
+.content-desc .bx-bd .row-r ul li .title {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.content-desc .bx-bd .row-r ul li .title a {
+    color: #333;
+}
+
+.content-desc .bx-bd .row-r ul li .desc {
+    height: 18px;
+    font-size: 12px;
+    text-align: center;
+    color: #b0b0b0;
+    margin: 0 10px 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.content-desc .bx-bd .row-r ul li .price {
+    text-align: center;
+    color: #ff6700;
+}
+
+.content-desc .bx-bd .row-r ul li .flag {
+    position: absolute;
+    top: 4px;
+    left: 50%;
+    width: 64px;
+    height: 20px;
+    background-color: #83c44e;
+    text-align: center;
+    color: #fff;
+    margin-left: -32px;
+}
+
+
+/* 脚部CSS */
+
+.footer .footer-service {
+    padding: 27px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.footer .footer-service ul li {
+    float: left;
+    height: 25px;
+    width: 19.8%;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    border-left: 1px solid #e0e0e0;
+}
+
+.footer .footer-service ul .first {
+    border: none;
+}
+
+.footer .footer-service ul li a {
+    color: #616161;
+}
+
+.footer .footer-service ul li .iconfont {
+    font-size: 24px;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+.footer .footer-links {
+    padding: 40px 0;
+}
+
+.footer .footer-links dl {
+    float: left;
+    width: 160px;
+    height: 112px;
+}
+
+.footer .footer-links dl dt {
+    margin-bottom: 26px;
+    font-size: 14px;
+    color: #424242;
+}
+
+.footer .footer-links dl dd {
+    font-size: 12px;
+    margin-top: 10px;
+    color: #757575;
+    cursor: pointer;
+}
+
+.footer .footer-links dl dd:hover {
+    color: #ff6700;
+}
+
+.footer .footer-links .col-contact {
+    float: right;
+    width: 251px;
+    height: 112px;
+    border-left: 1px solid #e0e0e0;
+    text-align: center;
+}
+
+.footer .footer-links .col-contact .iphone {
+    color: #ff6700;
+    margin-bottom: 5px;
+    font-size: 22px;
+}
+
+.footer .footer-links .col-contact p {
+    font-size: 12px;
+    margin-bottom: 16px;
+}
+
+.footer .footer-links .col-contact a {
+    display: block;
+    width: 118px;
+    height: 28px;
+    text-align: center;
+    border: 1px solid #ff6700;
+    margin: 5px auto;
+    color: #ff6700;
+    font-size: 12px;
+}
+
+.footer .footer-links .col-contact a:hover {
+    background-color: #ff6700;
+    color: #fff;
+}
+
+.footer .footer-links .col-contact .fork {
+    font-size: 12px;
+}
+
+.footer .footer-links .col-contact .fork i {
+    font-size: 25px;
+    line-height: 25px;
+    vertical-align: -4px;
+}
+
+.footer .footer-links .col-contact .fork i:hover {
+    color: #ff6700;
 }

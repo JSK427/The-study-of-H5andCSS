@@ -1,8 +1,8 @@
 @font-face {
   font-family: "iconfont"; /* Project id 3254037 */
-  src: url('iconfont.woff2?t=1647492088165') format('woff2'),
-       url('iconfont.woff?t=1647492088165') format('woff'),
-       url('iconfont.ttf?t=1647492088165') format('truetype');
+  src: url('iconfont.woff2?t=1647762451874') format('woff2'),
+       url('iconfont.woff?t=1647762451874') format('woff'),
+       url('iconfont.ttf?t=1647762451874') format('truetype');
 }
 
 .iconfont {
@@ -11,6 +11,50 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-huidingbu:before {
+  content: "\e66c";
+}
+
+.icon-gerenzhongxin:before {
+  content: "\e651";
+}
+
+.icon-shouji:before {
+  content: "\e8c6";
+}
+
+.icon-weibo:before {
+  content: "\e619";
+}
+
+.icon-weixin:before {
+  content: "\e8bb";
+}
+
+.icon-kefu:before {
+  content: "\e88f";
+}
+
+.icon-baobei:before {
+  content: "\e601";
+}
+
+.icon-15tianmianfeihuanhuo24px:before {
+  content: "\e605";
+}
+
+.icon-dingwei:before {
+  content: "\e62f";
+}
+
+.icon-weixiufuwu:before {
+  content: "\e643";
+}
+
+.icon-tianwuliyoutuihuo:before {
+  content: "\e602";
 }
 
 .icon-F:before {
