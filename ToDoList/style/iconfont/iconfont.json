@@ -1,0 +1,30 @@
+{
+  "id": "3385410",
+  "name": "ToDoList",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4937000",
+      "name": "github-fill",
+      "font_class": "github-fill",
+      "unicode": "e885",
+      "unicode_decimal": 59525
+    },
+    {
+      "icon_id": "13765988",
+      "name": "csdn",
+      "font_class": "csdn1-copy",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "4464332",
+      "name": "掘金",
+      "font_class": "juejin",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    }
+  ]
+}
