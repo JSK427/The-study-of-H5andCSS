@@ -17,7 +17,7 @@ $(function() {
     });
 
     //删除数据操作，从本地存储中删除
-    $("ol").on("click", "a", function() {
+    $("ol ,ul").on("click", "a", function() {
         var data = getDate();
         var index = $(this).attr("id");
         data.splice(index, 1);
