@@ -10,6 +10,7 @@ $(function() {
                 title: $(this).val(),
                 done: false,
             });
+            $(this).val("");
             saveDate(local);
         }
         load();
